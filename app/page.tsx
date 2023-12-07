@@ -6,8 +6,8 @@ import Container4 from './components/Container4'
 
 export default function Home() {
   return (
-    <main className="flex bg-black sm:w-full bg-cover  text-white flex-col ">
-      
+    <main className="flex bg-black   text-white flex-col ">
+      <div  className=''>
        <Container1/>
        <div className='flex flex-col w-3/4 m-auto'>
        
@@ -23,6 +23,7 @@ export default function Home() {
         </div>
        </div>
        
+      </div>
     </main>
   )
 }

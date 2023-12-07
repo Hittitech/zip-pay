@@ -6,7 +6,7 @@ import OrnageButton from './OrnageButton'
 
 const Container = () => {
   return (
-    <div className='flex justify-center md:gap-6 text-center items-center m-auto'>
+    <div className='flex justify-center gap-6 text-center items-center m-auto'>
         <Image 
         src={FamXCard}
         className='transform rotate-45 '
