@@ -6,7 +6,7 @@ import Container4 from './components/Container4'
 
 export default function Home() {
   return (
-    <main className=" bg-black      text-white  ">
+    <main className=" bg-black  overflow-hidden   text-white  ">
       <div className='flex flex-col w-3/4 m-auto'>
       <Container1/>
        <Partner/>
