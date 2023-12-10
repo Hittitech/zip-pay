@@ -8,9 +8,9 @@ const Partner = () => {
   
    
   return (
-    <div className='pt-10 flex flex-col w-3/4 m-auto justify-center mb-10  text-center'>
-      <h1 className='text-2xl pb-12'>We Are Trusted By</h1>
-      <div className='pt-6 flex flex-wrap w-200 gap-x-4 gap-y-2 '>
+    <div className='px-8  md:px-32  flex flex-col justify-center md:gap-6 text-center items-center mt-24'>
+      <h1 className='text-2xl mb-12'>We Are Trusted By</h1>
+      <div className='pt-6 flex w-50  items-center text-center flex-wrap md:w-200 gap-x-4 gap-y-4 md:gap-y-4 '>
     
     {[...Array(numberOfImages)].map((_, index) => (
           <div             key={index}

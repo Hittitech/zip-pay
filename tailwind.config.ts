@@ -14,13 +14,13 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
-    screens: {
-      'tablet': '300px',
+    // screens: {
+    //   'tablet': '300px',
 
-      'laptop': '1024px',
+    //   'laptop': '1024px',
 
-      'desktop': '1280px',
-    },
+    //   'desktop': '1280px',
+    // },
 
   },
   plugins: [],

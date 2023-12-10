@@ -6,24 +6,17 @@ import Container4 from './components/Container4'
 
 export default function Home() {
   return (
-    <main className="flex bg-black   text-white flex-col ">
-      <div  className=''>
-       <Container1/>
-       <div className='flex flex-col w-3/4 m-auto'>
-       
-        <div className='min-h-screen text-center'>
-          <Partner/>
-          <Container2/>
-        </div>
+    <main className=" bg-black      text-white  ">
+      <div className='flex flex-col w-3/4 m-auto'>
+      <Container1/>
+       <Partner/>
+       <Container2/>
 
-
-        <div className='min-h-screen text-center'>
         <Container3/>
         <Container4/>
-        </div>
-       </div>
-       
       </div>
+      
+       
     </main>
   )
 }

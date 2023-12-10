@@ -6,20 +6,20 @@ import OrnageButton from './OrnageButton'
 
 const Container = () => {
   return (
-    <div className='flex justify-center gap-6 text-center items-center m-auto'>
+    <div className=' flex flex-col w-full  justify-center md:gap-6 text-center items-center m-auto  md:flex-row '>
         <Image 
         src={FamXCard}
-        className='transform rotate-45 '
+        className='transform rotate-45   '
         alt='Card-image'
         width={700}
         />
-        <div className='flex flex-col  text-start gap-y-6 '>
-        <h1 className="text-5xl tracking-wider gap-y-6  break-words">
+        <div className='flex flex-col  text-center items-center md:text-start md:items-start gap-y-6 '>
+        <h1 className="text-2xl md:text-4xl  gap-y-6 ">
         Personalised UPI <br/> and card for teens
         </h1>
-          <p className='text-white  tracking-wide text-xl'>Lörem ipsum androception migt.<br/> Plalonde van supraktig. Rer rens i </p>
+          <p className='text-white  tracking-wide md:text-xl'>Lörem ipsum androception migt.<br/> Plalonde van supraktig. Rer rens i </p>
         
-          <div className='flex gap-8'>
+          <div className='flex gap-8 '>
           <OrnageButton 
             text='Get Now'
             orange={true}

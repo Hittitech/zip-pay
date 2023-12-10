@@ -12,15 +12,15 @@ const Container3 = () => {
         "Recharge, pay bills, shop online, and more"        
 ]
   return (
-    <div className='flex  capitalize m-auto justify-between mb-24 text-center gap-12 items-center mt-12'>
+    <div className='flex flex-col gap-x-24 justify-center gap-y-12  gap-6  text-center items-center m-auto capitalize mt-24 md:flex-row '>
         <Image 
         src={QrImage}
-        className='pl-12'
+        className='md:pl-12'
         alt='Card-image'
         width={400}
         />
         <div className='flex flex-col justify-between text-start gap-6  '>
-        <h1 className="text-4xl tracking-wider  font-semibold  break-words">
+        <h1 className="  text-2xl md:text-4xl tracking-wider  font-semibold  break-words">
         Your own UPI to make <br/> super fast payments
 
         </h1>
@@ -32,13 +32,13 @@ const Container3 = () => {
            
             <Image
             alt='check'
-            className='pt-1'
+            className='pt-2'
             src={Check}
             width={30}
             height={30}
             />
           </div>
-          <span className="text-xl">{text}</span>
+          <span className="md:text-xl">{text}</span>
         </li>
       ))}
     </ul>
